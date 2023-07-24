@@ -1,0 +1,89 @@
+@media (max-width: 992px) {
+    .theBtn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .link {
+        margin: 8px 0 !important;
+    }
+}
+
+.link {
+    color: white !important;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #f82249;
+    bottom: -10px;
+    left: -5px;
+    width: 0;
+    transition: 600ms;
+}
+
+.link:hover::after {
+    width: 120%;
+}
+
+.theBtn {
+    background-color: #f82249 !important;
+    border: 2px solid #f82249 !important;
+    font-size: .8rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    border-radius: 50rem !important;
+    font-weight: 500 !important;
+    text-transform: capitalize;
+    transition: 500ms !important;
+}
+
+.theBtn a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.theBtn:hover {
+    background-color: transparent !important;
+}
+
+.bar {
+    color: white !important;
+    border: 1px solid white !important;
+    padding: 7px 10px !important;
+}
+
+.bar:focus {
+    box-shadow: none !important;
+}
+
+.onFixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 998;
+}
+
+.active{
+    position: relative;
+}
+
+.active::after{
+    position: absolute;
+    height: 3px;
+    background-color: #f82249;
+    bottom: -10px;
+    left: -5px;
+    width: 120%;
+    transition: 600ms;
+}

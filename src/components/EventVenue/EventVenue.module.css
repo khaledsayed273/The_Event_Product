@@ -1,0 +1,73 @@
+@media (min-width: 992px) {
+    .over h2{
+        font-size: 2rem !important;
+        text-align: start !important;
+    }
+    
+    
+}
+
+.title {
+    color: #0e1b4d;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subTitle {
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    font-size: 1.25rem;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.subTitle::after {
+    content: "";
+    position: absolute;
+    top: 130%;
+    left: 43%;
+    width: 15%;
+    border-bottom: 5px solid #f82249;
+}
+
+.card {
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.card > img{
+    transition: 500ms;
+
+}
+
+
+.over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #0e1b4db3;
+    padding: 25px 40px;
+    color: white;
+}
+
+.over h2{
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+
+.card:hover>img {
+    transform: scale(1.3);
+
+}

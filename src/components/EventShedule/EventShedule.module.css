@@ -1,0 +1,150 @@
+
+@media (min-width: 0px) {
+    .forHeight{
+        height: 1300px !important;
+    }
+}
+@media (min-width: 305px) {
+    .forHeight{
+        height: 1150px !important;
+    }
+}
+@media (min-width: 389px) {
+    .forHeight{
+        height: 1100px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .days>li {
+        width: 30% !important;
+    }
+
+    .dayUl li{
+        flex-direction: row !important;
+        align-items: flex-start !important ;
+    }
+
+    .dayUl li article{
+        flex-direction: row !important;
+        align-items: flex-start !important;
+    }
+
+    .contant > div{
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+    .contant > h5{
+        font-size: 1.25rem !important;
+    }
+
+    .contant > p{
+        font-size: 16px !important;
+        text-align: start !important;
+    }
+    .parantImg{
+        margin-right: 10px !important;
+    }
+
+    .forHeight{
+        height: 670px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .forHeight{
+        height: 550px !important;
+    }
+}
+
+
+
+
+
+.title {
+    color: #0e1b4d;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subTitle {
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    font-size: 1.25rem;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.subTitle::after {
+    content: "";
+    position: absolute;
+    top: 130%;
+    left: 43%;
+    width: 15%;
+    border-bottom: 5px solid #f82249;
+}
+
+
+.days>li {
+    background-color: #0e1b4d;
+    cursor: pointer;
+    width: 100%;
+    transition: .6s;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+}
+
+
+.dayUl {
+    transition: .7s;
+    background: white;
+}
+
+.dayUl h5{
+    font-weight: bold !important;
+}
+
+.dayUl p {
+    color: rgba(24, 56, 174, 0.98);
+    font-style: italic;
+}
+
+.dayUl li{
+    border-bottom: 1px solid #dee2e6!important;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.dayUl li article{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.parantImg{
+    margin-right: 0;
+}
+
+.contant > div{
+    justify-content: center ;
+    align-items: center ;
+}
+
+.contant > p{
+    font-size: .8rem ;
+    text-align: center;
+}
+
+.dayUl li .contant h5{
+    font-size: 1rem 
+}
+
+
+.activeDay {
+    background-color: #f82249 !important;
+}

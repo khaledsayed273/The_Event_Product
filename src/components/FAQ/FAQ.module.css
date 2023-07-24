@@ -1,0 +1,52 @@
+.title {
+    color: #0e1b4d;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title2{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.subTitle {
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    font-size: 1.25rem;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.subTitle::after {
+    content: "";
+    position: absolute;
+    top: 130%;
+    left: 43%;
+    width: 15%;
+    border-bottom: 5px solid #f82249;
+}
+
+
+.NEWSLETTER{
+    background-image: url(../../img/news1.png);
+    position: relative;
+    z-index: 1;
+}
+
+.NEWSLETTER::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0e1b4db3;
+    z-index: -1;
+
+}
